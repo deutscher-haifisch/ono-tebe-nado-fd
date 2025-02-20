@@ -13,8 +13,8 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">
-            <a class="header__link_active"
+          <li class="header__links-list-item links-list-item_active">
+            <a class="header__link link-active"
             >главная</a>
           </li>
           <li class="header__links-list-item">
@@ -49,15 +49,15 @@
 
         <div class="cover_description">
           <p class="cover_text">Аукцион вещей, в которые никто не верил</p>
-          <button class="bet_button">СДЕЛАТЬ СТАВКУ</button>
+          <button class="bet_button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h2 class="lots_heading">ЛОТЫ</h2>
+        <h2 class="lots_heading">лоты</h2>
         <ul class="lots_list">
           <li class="lot">
-            <a class="car_link">
-              <article class="lot_article lot_a_1">
+            <a>
+              <article class="lot_article lot_a_film">
                 <div class="overlay"></div>
                 <h3 class="lot_heading">
                   Фильм режиссёра, который бросил киношколу
@@ -72,7 +72,7 @@
           </li>
           <li class="lot">
             <a>
-              <article class="lot_article lot_a_2">
+              <article class="lot_article lot_a_book">
                 <div class="overlay"></div>
                 <h3 class="lot_heading">
                   Книга, где описан один скучный день из жизни рекламного агента
@@ -90,7 +90,7 @@
           </li>
           <li class="lot">
             <a>
-              <article class="lot_article lot_a_3">
+              <article class="lot_article lot_a_paint">
                 <div class="overlay"></div>
                 <h3 class="lot_heading">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -105,13 +105,11 @@
             </a>
           </li>
         </ul>
-        <a>
-          <p class="look_more">посмотреть больше</p>
-        </a>
+        <a class="look_more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about_logo_circle">
-          <a class="about_logo">
+          <a>
             <img
               class="about_logo_image"
               src="images/logo-white.svg"
@@ -119,26 +117,28 @@
             />
           </a>
         </div>
-        <div class="about__text">
+        <div class="about_article">
           <h2 class="about_heading">Об аукционе</h2>
-          <p class="about_text_1">
-            Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
-            один аукцион. Потому что кому нужен дневник девочки-подростка или
-            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?
-          </p>
-          <p class="about_text_2">
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
-            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
-            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-          </p>
+          <div class="about_text">
+            <p>
+              Здесь вы не встретите очередное пафосное собрание невероятно
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
+              один аукцион. Потому что кому нужен дневник девочки-подростка или
+              картина, которую может нарисовать даже ребёнок? Кому нужны все эти
+              странные вещи, созданные любителями?
+            </p>
+            <p>
+              Слишком сложные или, наоборот, слишком простые. Опережающие своё
+              время. В пух и прах растерзанные критиками. Непринятые и непонятые.
+              Когда-то они казались просто неудачными. Но, несмотря на критику,
+              кажущуюся простоту или сложность, сейчас без этих лотов невозможно
+              представить современную культуру. Когда в эти вещи не верил никто,
+              продолжали верить их создатели. И сейчас эти лоты стали культовыми.
+            </p>
+          </div>
+          
         </div>
       </section>
-      <section></section>
     </main>
     <footer class="footer">
       <address class="address footer_address">
@@ -146,25 +146,41 @@
         <a href="mailto:mail@example.com">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265,<br />Амстердам</p>
       </address>
-      <nav class="footer_menu_list">
-        <a class="footer_menu_item_no_underline">главная</a>
-        <a class="footer_menu_item">посмотреть лоты</a>
-        <a class="footer_menu_item">об аукционе</a>
+      <nav class="footer_menu">
+        <ul class="footer_menu_list">
+          <li>
+            <a class="footer_menu_item link-active">главная</a>
+          </li>
+          <li>
+            <a class="footer_menu_item">посмотреть лоты</a>
+          </li>
+          <li>
+            <a class="footer_menu_item">об аукционе</a>
+          </li>
+        </ul>
       </nav>
-      <div class="media_icons">
-        <a class="media_icon_yt">
-          <img class="icon" src="images/yt.svg" alt="логотип Youtube" />
-        </a>
-        <a class="media_icon_vk">
-          <img class="icon" src="images/vk.svg" alt="логотип VK" />
-        </a>
-        <a class="media_icon_pint">
-          <img
-            class="icon"
-            src="images/pinterest.svg"
-            alt="логотип Pinterest"
-          />
-        </a>
+      <div>
+        <ul class="media_icons">
+          <li class="media_icon_yt">
+            <a>
+              <img class="icon" src="images/yt.svg" alt="логотип Youtube" />
+            </a>
+          </li>
+          <li class="media_icon_vk">
+            <a>
+              <img class="icon" src="images/vk.svg" alt="логотип VK" />
+            </a>
+          </li>
+          <li class="media_icon_pint">
+            <a>
+              <img
+                class="icon"
+                src="images/pinterest.svg"
+                alt="логотип Pinterest"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
