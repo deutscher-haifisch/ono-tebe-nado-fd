@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
+  height: 293px;
   padding: 92px 50px 69px;
 }
 
@@ -14,7 +15,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 31.5px;
+  gap:31.7px;
 }
 
 .header__links-list-item {
@@ -51,7 +52,6 @@
 .cover {
   position: relative;
   z-index: -2;
-  margin-top: 14px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -79,7 +79,7 @@
   font-family: Raleway;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  line-height: 125%;
+  line-height: 128.33px;
   color: white;
 }
 
@@ -229,7 +229,7 @@
 }
 
 .about_heading {
-  padding: 98px 0 100px;
+  margin: 101px 0 115px;
   font-size: 40px;
   font-family: Raleway;
   font-weight: bold;
@@ -253,7 +253,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
-  margin-top: 90px;
   padding: 0 50px;
 }
 
