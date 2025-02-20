@@ -8,6 +8,7 @@
 
 .header__menu {
   line-height: auto;
+  text-align: center;
   font-size: 18px;
 }
 
@@ -31,7 +32,7 @@
 
 .header_logo {
   display: block;
-  width: 148px;
+  width: 129px;
 }
 
 .header_logo_image {
@@ -73,11 +74,12 @@
 .cover_title {
   display: flex;
   flex-direction: column;
-  margin: 115px 0 106px;
+  margin: 115px -30px 106px 0;
   font-size: 100px;
   font-family: Raleway;
+  text-transform: uppercase;
   letter-spacing: 0.3em;
-  line-height: 115%;
+  line-height: 125%;
   color: white;
 }
 
@@ -118,7 +120,6 @@
 
 .lots {
   margin-top: 180px;
-  margin-bottom: 60px;
 }
 
 .lots_heading {
@@ -197,8 +198,8 @@
 
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  margin: 120px 24px 180px;
+  grid-template-columns: 334px 693px;
+  margin: 155px 24px 180px;
   line-height: 24px;
 }
 
@@ -221,6 +222,10 @@
 
 .about_logo_image {
   width: 148px;
+}
+
+.about__text {
+  margin-left: 25px;;
 }
 
 .about_heading {
