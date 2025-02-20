@@ -28,7 +28,7 @@
 
 .header_logo {
   display: block;
-  width: 130px;
+  width: 131px;
 }
 
 .header_logo_image {
@@ -72,7 +72,7 @@
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  line-height: 128.33px;
+  line-height: 128.5px;
   color: white;
 }
 
@@ -186,7 +186,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 718px;
-  margin: 120px 24px 180px;
+  margin: 156px 24px 180px;
   line-height: 24px;
 }
 
@@ -220,7 +220,6 @@
   flex-direction: column;
   font-size: 20px;
   gap: 24px;
-  padding-top: 59px;
   padding-left: 25px;
 }
 
@@ -244,7 +243,7 @@
   
 }
 
-.footer_menu_list{
+.footer_menu_list {
   list-style: none;
   font-size: 18px;
   text-align: center;
@@ -254,7 +253,7 @@
   text-decoration: underline;
 }
 
-.link-active{
+.link-active {
   text-decoration: none ;
 }
 
@@ -269,7 +268,7 @@
   
 }
 
-.media_icons_list{
+.media_icons_list {
   list-style: none;
 }
 
