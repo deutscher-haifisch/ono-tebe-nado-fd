@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96.87px;
+  padding: 92px 50px 91px;
 }
 
 .header__menu {
@@ -13,7 +13,7 @@
 
 .header__links-list {
   display: flex;
-  gap:31.7px;
+  gap: 31.7px;
 }
 
 .header__links-list-item {
@@ -133,7 +133,6 @@
 .lot {
   width: 334px;
   min-height: 596px;
-  
 }
 
 .lot_a_film {
@@ -241,7 +240,6 @@
   display: flex;
   flex-direction: column;
   justify-self: center;
-  
 }
 
 .footer_menu_list {
@@ -255,18 +253,16 @@
 }
 
 .link-active {
-  text-decoration: none ;
+  text-decoration: none;
 }
 
 .media_icons {
-  
   width: 240px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "yt . vk . pint";
   justify-content: space-between;
   justify-self: end;
-  
 }
 
 .media_icons_list {
