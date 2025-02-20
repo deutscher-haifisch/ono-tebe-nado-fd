@@ -3,26 +3,29 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  padding: 92px 50px 87px;
 }
 
-.header_menu {
-  display: flex;
-  gap: 13px;
+.header__menu {
+  line-height: auto;
   font-size: 18px;
 }
 
-.header_menu_item {
+.header__links-list {
+  display: flex;
+  gap: 31.5px;
+}
+
+.header__links-list-item {
   list-style: circle;
   text-decoration: underline;
 }
 
-.header_menu_item_no_circle {
+.header__links-list-item_no-bullit {
   list-style: none;
-  text-decoration: underline;
 }
 
-.header_menu_item_active {
+.header__link_active {
   text-decoration: none;
 }
 
@@ -41,6 +44,7 @@
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
+  line-height: 24px;
 }
 
 .cover {
@@ -164,7 +168,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 596px;
 }
 
 .lot_heading {
