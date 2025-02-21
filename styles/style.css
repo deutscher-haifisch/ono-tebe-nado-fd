@@ -13,7 +13,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 31.7px;
+  gap: 32.3px;
 }
 
 .header__links-list-item {
@@ -28,7 +28,7 @@
 
 .header_logo {
   display: block;
-  width: 137px;
+  width: 136px;
 }
 
 .header_logo_image {
@@ -72,7 +72,7 @@
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  line-height: 128px;
+  line-height: 130px;
   color: white;
 }
 
@@ -200,6 +200,7 @@
   justify-self: center;
   justify-content: center;
   align-items: center;
+  padding-top: 3px;
 }
 
 .about_logo_image {
@@ -207,7 +208,7 @@
 }
 
 .about_heading {
-  margin: 101px 0 100px;
+  margin: 111px 0 92px;
   padding-left: 25px;
   font-size: 40px;
   font-weight: bold;
@@ -218,6 +219,7 @@
   display: flex;
   flex-direction: column;
   font-size: 20px;
+  letter-spacing: ;
   gap: 24px;
   padding-top: 20px;
   padding-left: 25px;
